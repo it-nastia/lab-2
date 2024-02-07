@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>2 lab</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="img/book.png" alt="Books" class="header__img-logo">
+                </div>
+                <div class="header__heading">
+                    <h1 class="header__title">Моя колекція книг</h1>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <div class="page__collection collection" >
+                <div class="collection__container" id="bookCollection">
+
+                    
+                </div>
+            </div> 
+                <form action="#" class="page__form-book book-form" id="bookForm">
+                    <h3 class="book-form__heading">Додати книгу до списку</h3>
+                    <div class="book-form__line">
+                        <label class="book-form__label" for="title">Назва: </label>
+                        <input class="book-form__input" id="title" name="title" type="text" placeholder="Назва книги" required>
+                    </div>
+                    <div class="book-form__line">
+                        <label class="book-form__label" for="author">Автор: </label>
+                        <input class="book-form__input" id="author" type="text" name="author" placeholder="Автор книги" required>
+                    </div>
+                    <div class="book-form__line">
+                        <label class="book-form__label" for="year">Рік: </label>
+                        <input class="book-form__input" id="year" type="text" name="year" placeholder="Рік видання" required>
+                    </div>
+                    <div class="book-form__line">
+                        <button class="book-form__button" type="submit">Додати</button>
+                    </div>
+                </form> 
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
